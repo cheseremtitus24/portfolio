@@ -5,44 +5,44 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "ESP32 IoT Integration",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
-    src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+        "Engineered secure onboarding between React Native apps and ESP32 IoT devices. Implemented Firebase Realtime Database with device MAC IDs as unique identifiers for reliable IoT management.",
+    src: "esp32.jpg",
+    link: "https://i.postimg.cc/9fT5xM7m/esp32-firebase.png",
     color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+    githubLink: "https://github.com/cheseremtitus24/esp32-iot-firebase", // example placeholder
+    liveLink: "https://github.com/cheseremtitus24", // could be portfolio link
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
+    title: "Wi-Fi Hotspot & Captive Portal",
     description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
-    src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+        "Built a FreeRADIUS-based captive portal system with full M-Pesa Daraja API integration. Automated user provisioning for hotspot services with 99.9% uptime and real-time access management.",
+    src: "hotspot.jpg",
+    link: "https://i.postimg.cc/LsXtQdmV/hotspot-portal.png",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "https://github.com/cheseremtitus24/radius-hotspot",
+    liveLink: "https://paywifigo.com", // if public project is available
   },
   {
-    title: "🚀 CodeWhisperer",
+    title: "Proxy Server with RADIUS",
     description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
-    color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
-  },
-  {
-    title: "CodeKori 🔥",
-    description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+        "Developed a secure proxy server managing hotel/home internet access. Integrated Orange Money for paid subscriptions and built admin/client portals for centralized management.",
+    src: "proxy.jpg",
+    link: "https://i.postimg.cc/bwWjZh6N/radius-proxy.png",
     color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    githubLink: "https://github.com/cheseremtitus24/radius-proxy",
+    liveLink: "https://gingerwifi.com", // example
+  },
+  {
+    title: "Cybersecurity Training & Pen Testing",
+    description:
+        "Conducted wireless penetration testing, malware analysis, and employee security training. Built iptables rules to enhance system resilience and enforce network security policies.",
+    src: "security.jpg",
+    link: "https://i.postimg.cc/s2fXmB1M/security-lab.png",
+    color: "#00d084",
+    githubLink: "https://github.com/cheseremtitus24/cybersecurity-lab",
+    liveLink: "https://linkedin.com/in/cheseremtitus24",
   },
 ];
 

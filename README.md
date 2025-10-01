@@ -163,6 +163,9 @@ Install Dependencies ⚙️
 From the root directory of your project, install the necessary packages:
 ```bash
 npm install
+npm uninstall tailwindcss @tailwindcss/postcss @tailwindcss/vite
+npm install -D tailwindcss@^3 postcss autoprefixer
+npx tailwindcss init -p
 ```
 
 Run the Development Server 🚀
